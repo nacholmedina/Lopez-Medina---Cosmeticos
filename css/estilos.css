@@ -1,0 +1,193 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+
+/*------ Variables */
+:root{
+  /*------ Colores */
+  --green-color: #7ACC2D;
+  --black-color: #313337;
+  --white-color: white;
+  /*------ Tipografía */
+  --normal:12px;
+  /*------ Espaciado */
+  --space:10px;
+  --space-2:20px;
+}
+
+/* -------------------------------------------  */
+
+
+nav{
+  padding: 2%;
+  width: 100%;
+  height: 20%;
+  background-image: url("../images/banner.jpg");
+  text-align: center;
+}
+nav h1{
+  color: rgb(0, 0, 0);
+}
+
+nav a{
+  text-decoration: none;
+  color: var(--black-color);
+  font-size: var(--normal);
+}
+
+
+nav a:hover{
+  color: var(--white-color);
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li{
+  padding-right: 20px;
+  list-style: none;
+}
+nav .banner{
+  height: 10%;
+}
+hr{
+  opacity: .2;
+}
+
+
+/* ------------------------------------------- MAIN SECTION */
+
+.main_section{
+  text-align: center;
+  padding: 15%;
+  background-color: #666666;
+
+}
+
+.banner{
+  background-image: url("images/banner.jpg");
+  background-size: initial;
+  margin-top: 0%;
+  padding: 0%;
+}
+
+/* -------------------------------------------  PRODUCTOS */
+
+.products{
+  align-items: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8p5u7TKSDj6ZuFRKLtja9rishUVkvQ29wykkSG-B35WO1u9kzwq-kPDS-U8578mOslZM&usqp=CAU");
+  padding: 15%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 95px;
+  background-size: cover;
+}
+.ubicacion{
+  padding: 5%;
+}
+img .products{
+  max-height: 250px;
+  max-height: 500px;
+}
+.product{
+  padding: 20px;
+  margin-top: -226px;
+}
+.sobrenosotros{
+  text-shadow: lawngreen;
+}
+.image-product{
+  text-align: center;
+  
+}
+.cuerpo {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+
+}
+.content{
+  background-color: #666666;
+}
+
+
+.content{
+  padding: 20px;
+  background: var(--white-color);
+  border-radius: 3px;
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+
+.main_btn{
+  padding: var(--space);
+  background-color: var(--green-color);
+  width: 100%;
+  border: 0px;
+  border-radius: 2px;
+  cursor: pointer;
+  color: var(--white-color);
+}
+.main_btn:hover{
+  background-color: #63a426;
+}
+
+/* Beneficios */
+.beneficios{
+  padding: 10%;
+  display: flex;
+}
+
+.beneficio{
+  text-align: center;
+  padding: 20px;
+}
+
+.beneficio img{
+  max-height: 100px
+}
+
+.text_beneficio{
+  text-align: justify;
+}
+
+/* Mentions */
+.mentions{
+  display: flex;
+  padding: 5%;
+}
+.mention img{
+  width: 100%;
+}
+h2.mention_title{
+  text-align: center;
+}
+.mention{
+  padding: var(--space);
+}
+.content_mention{
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+.mention .text{
+  padding: var(--space);
+}
+.container{
+  text-align: center;
+  margin-top: 0%;
+  margin-left: 0%;
+}
+
+/* ------------------------------------------- Footer */
+footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--normal);
+  background-color: var(--black-color);
+  padding: var(--space);
+  color: var(--white-color);
+}
